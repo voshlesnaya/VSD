@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cайт кафедры ВШД</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://vk.com/js/api/openapi.js?168"
+    ></script>
+
+    <style>
+      .vsd {
+        animation: vsd 2s;
+        height: 7px;
+        max-width: 617px;
+      }
+      @keyframes vsd {
+        from {
+          width: 20px;
+        }
+        to {
+          width: 224px;
+        }
+      }
+
+      .nws {
+        animation: vsd 2s;
+        height: 7px;
+        max-width: 224px;
+      }
+      @keyframes vsd {
+        from {
+          width: 20px;
+        }
+        to {
+          width: 617px;
+        }
+      }
+
+      .abvsd {
+        animation: vsd 2s;
+        height: 7px;
+        max-width: 647px;
+      }
+      @keyframes vsd {
+        from {
+          width: 20px;
+        }
+        to {
+          width: 647px;
+        }
+      }
+
+      .tch {
+        animation: vsd 2s;
+        height: 7px;
+        max-width: 700px;
+      }
+      @keyframes vsd {
+        from {
+          width: 20px;
+        }
+        to {
+          width: 700px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="h_ru">
+      <div class="header_ru">
+        <div class="logo"><img src="img/logo_1.png" /></div>
+
+        <div class="btts">
+          <p><a href="#abit">Абитурентам</a></p>
+          <p><a href="#prepodi">Преподавательский состав</a></p>
+          <p><a href="#contacti">Контакты</a></p>
+        </div>
+
+        <div class="langg">
+          <select id="lang">
+            <option value="http://127.0.0.1:5502/index.html">RU</option>
+            <option value="http://127.0.0.1:5502/indexEn.html">EN</option>
+          </select>
+          <script src="script.js"></script>
+        </div>
+
+        <div class="search-container">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Введите запрос..."
+          />
+          <button class="search-button">Поиск</button>
+        </div>
+      </div>
+      <div class="btts_mini">
+        <p><a href="#abit">Абитурентам</a></p>
+        <p><a href="#prepodi">Преподавательский состав</a></p>
+        <p><a href="#contacti">Контакты</a></p>
+      </div>
+    </header>
+
+    <div class="bl1" id="abit">
+      <div class="tit1">
+        <span class="headers"> ВЫСШАЯ ШКОЛА ДИЗАЙНА </span>
+        <img src="img/вшд.png" class="vsd" />
+      </div>
+
+      <div class="of-swiper">
+        <swiper-container
+          class="mySwiper"
+          space-between="0"
+          centered-slides="true"
+          autoplay-delay="3500"
+          autoplay-disable-on-interaction="false"
+        >
+          <swiper-slide
+            ><img class="mySwiper_img1" src=img/CDposterru.svg></swiper-slide
+          >
+          <swiper-slide
+            ><img class="mySwiper_img2" src=img/opendoorru.svg></swiper-slide
+          >
+        </swiper-container>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+      </div>
+    </div>
+
+    <div class="bl2">
+
+      <div class="card13">
+        <div class="card1">
+          <img
+            class="card-image"
+            src="img/кол9.svg"
+            alt="Описание изображения"
+          />
+
+          <div class="card-k9">
+            <div class="coll9"><p class="card-title">Колледж (9 класс)</p></div>
+            <a href="https://midis.ru/kolledzh/" class="card-button">
+              <img class="Arrow" src="img/Arrow 1.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="card3">
+          <img
+            class="card-image"
+            src="/img/заоч.svg"
+            alt="Описание изображения"
+          />
+          <div class="card-z">
+            <div class="zaoch"><p class="card-title">Заочное обучение</p></div>
+            <a href="https://midis.ru/zaochka/" class="card-button"
+              ><img class="Arrow" src="img/Arrow 1.svg"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card24">
+
+        <div class="card2">
+          <img
+            class="card-image"
+            src="img/кол11.svg"
+            alt="Описание изображения"
+          />
+          <div class="card-k11">
+            <div class="coll">
+              <p class="card-title">Колледж (11 класс)</p>
+            </div>
+
+            <div class="img-coll">
+              <a href="https://midis.ru/kolledzh/" class="card-button"
+                ><img class="Arrow" src="img/Arrow 1.svg"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card4">
+          <img
+            class="card-image"
+            src="/img/ун.svg"
+            alt="Описание изображения"/>
+
+          <div class="card-u">
+
+            <div class="uni">
+              <p class="card-title">Институт</p>
+            </div>
+
+          <div class="img-uni">
+            <a href="https://midis.ru/bakalavriat/" class="card-button"
+              ><img class="Arrow" src="img/Arrow 1.svg"/></a>
+            
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="bl3">
+      <div class="tit1">
+        <span class="headers"> НОВОСТИ </span>
+        <img src="img/новости.png" class="nws" />
+      </div>
+
+      <div>
+        <div id="vk_groups" class="vk"></div>
+        <script type="text/javascript" class="vk">
+          VK.Widgets.Group(
+            "vk_groups",
+            {
+              mode: 4,
+              wide: 1,
+              width: "style",
+              height: 625,
+              color1: "FFFFFF",
+              color2: "000000",
+              color3: "F3A515",
+            },
+            90870747
+          );
+        </script>
+      </div>
+    </div>
+
+    <div class="bl4">
+      <div class="tit1">
+        <span class="headers"> О ВЫСШЕЙ ШКОЛЕ ДИЗАЙНА </span>
+        <img src="img/о вшд.png" class="abvsd" />
+      </div>
+
+      <div class="abt">
+        <div class="first-s">
+          <div className="year">
+            <img src="img/1994.svg" />
+            <p className="y-title">Год основания</p>
+          </div>
+
+          <div className="direct">
+            <img src="img/11.svg" />
+            <p className="d-title">Направлений СПО и ВО</p>
+          </div>
+        </div>
+
+        <div class="second-s">
+          <div className="styd">
+            <img src="img/500.svg" />
+            <p className="s-title">Студентов и аспирантов</p>
+          </div>
+
+          <div className="staff">
+            <img src="img/30.svg" />
+            <p className="st-title">Сотрудников</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="tit2">
+        <span class="headers">
+        ПРЕПОДАВАТЕЛЬСКИЙ СОСТАВ
+        </span>
+       <img src="img/prepSost.png" class="tch">
+        
+      </div>
+
+    </div>
+
+    <div class="prep-sost" id="prepodi">
+
+      <div class="prep-columns">
+
+   <div class="prepod1">
+
+          <div class="person">
+            
+            <div class="profile">
+              <img class="photo" src="img/юлия влд.png" alt="">
+            </div>
+
+           <div class="prep-txt">
+
+            <div class="name">
+              Одношовина Юлия Владимировна
+              </div>
+
+              <div class="post">
+                Заведующий кафедрой
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="person">
+            
+            <div class="profile">
+              <img class="photo" src="img/шеина.png" alt="">
+            </div>
+
+           <div class="prep-txt">
+
+            <div class="name">
+              Шеина Евгения Павловна
+              </div>
+
+              <div class="post">
+                Преподаватель
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="person">
+            
+            <div class="profile">
+              <img class="photo" src="img/воробей.png" alt="">
+            </div>
+
+           <div class="prep-txt">
+
+            <div class="name">
+              Воробьева Ольга Ивановна
+              </div>
+
+              <div class="post">
+                Преподаватель
+              </div>
+
+            </div>
+
+          </div>
+          
+          <div class="person">
+            
+            <div class="profile">
+              <img class="photo" src="img/трушникова.png" alt="">
+            </div>
+
+           <div class="prep-txt">
+
+            <div class="name">
+              Трушникова Екатерина Леонидовна
+              </div>
+
+              <div class="post">
+                Доцент
+              </div>
+
+            </div>
+
+          </div>  
+
+          </div>
+
+          <div class="prepod2">
+
+            <div class="person">
+              
+              <div class="profile">
+                <img class="photo" src="img/пайко.png" alt="">
+              </div>
+  
+             <div class="prep-txt">
+  
+              <div class="name">
+                Пайко Дмитрий Сергеевич
+                </div>
+  
+                <div class="post">
+                  Преподаватель                </div>
+  
+              </div>
+  
+            </div>
+
+            <div class="person">
+              
+              <div class="profile">
+                <img class="photo" src="img/тихонова.png" alt="">
+              </div>
+  
+             <div class="prep-txt">
+  
+              <div class="name">
+                Тихонова Нина Александровна
+                </div>
+  
+                <div class="post">
+                  Преподаватель</div>
+  
+              </div>
+  
+            </div>
+
+            <div class="person">
+              
+              <div class="profile">
+                <img class="photo" src="img/абра.png" alt="">
+              </div>
+  
+             <div class="prep-txt">
+  
+              <div class="name">
+                Абдрашитов Рифат Рафкатович
+                </div>
+  
+                <div class="post">
+                  Преподаватель</div>
+  
+              </div>
+  
+            </div>
+
+            <div class="person">
+              
+              <div class="profile">
+                <img class="photo" src="img/умарик.png" alt="">
+              </div>
+  
+             <div class="prep-txt">
+  
+              <div class="name">
+                Нуршинов Умар Ширинович
+                </div>
+  
+                <div class="post">
+                  Ведущий дизайнер</div>
+  
+              </div>
+  
+            </div>
+              
+            </div>
+
+        </div>
+         
+    </div>
+
+    <footer id="contacti">
+      <div class="footer-container">
+        <div class="columns"></div>
+        <div class="footer">
+          <div class="column_1">
+            <p class="txt_3">Абитурентам</p>
+
+            <div class="cont1">
+              <p class="txt_2">СПО</p>
+              <p class="txt_2">ВО</p>
+              <p class="txt_2">Заочное обучение</p>
+            </div>
+          </div>
+
+          <div class="column_2">
+            <div class="cont1">
+              <p class="txt_1">Кафедра</p>
+              <p class="txt_2">8(351)216-10-28</p>
+            </div>
+
+            <div class="cont1">
+              <p class="txt_1">Приемная комиссия</p>
+              <p class="txt_2">8 (351) 202-00-73</p>
+            </div>
+
+            <div class="txt_2">
+              <p>ул. Ворошилова, 12, Челябинск, Челябинская обл., 454014</p>
+            </div>
+          </div>
+
+          <div class="column_3">
+            <div>
+              <img src="img/Group 22.png" />
+              <p class="txt_1">МИДиС</p>
+              <p class="txt_2">1992-2024</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="column_4">
+            <div><img src="img/Vector 25.png" class="vector"></div>
+          <div><p class="txt_2">
+              Сайт выполнен в рамках учебного проекта по дисциплине "Проектирование и разработка интерфейсов пользователя" студентами группы П-26:</p>
+            <p class="txt_2">Cмолина Анастасия, Абрамовских Анна</p>
+            <p class="txt_2">Руководитель проекта: Хаятова Лилия Рэхтямовна</p></div>
+          </div>
+         
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
